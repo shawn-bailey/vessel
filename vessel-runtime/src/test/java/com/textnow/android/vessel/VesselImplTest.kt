@@ -40,7 +40,7 @@ import org.robolectric.annotation.Config
 /**
  * Validate functionality of the Vessel implementation.
  * These tests will rely on the in-memory room database so we can verify proper serialization.
- * Tests Vessel with caching and non-caching functionality
+ * Tests Vessel with caching and non-caching functionality.
  */
 abstract class VesselImplTest(cache: VesselCache?): BaseVesselTest<VesselCache>(cache) {
     @Test
